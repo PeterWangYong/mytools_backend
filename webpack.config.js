@@ -6,7 +6,7 @@ module.exports = {
   mode: 'production',
   entry: path.resolve(__dirname, 'src/app.js'),
   output: {
-    filename: '[name].bundle.js',
+    filename: 'server.bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'eval-source-map',
