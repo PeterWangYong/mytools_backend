@@ -1,7 +1,7 @@
 import { solarToLunar } from 'lunar-calendar';
 
 function getDate() {
-  const date = new Date();
+  const date = new Date(+new Date() + 8 * 3600 * 1000);
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const _date = date.getDate();
